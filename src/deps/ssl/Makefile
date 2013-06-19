@@ -69,7 +69,7 @@ ARFLAGS=
 AR= ar $(ARFLAGS) r
 RANLIB= true
 NM= nm
-PERL= perl
+PERL= /bin/perl.exe
 TAR= tar
 TARFLAGS= --no-recursion --record-size=10240
 MAKEDEPPROG= gcc
